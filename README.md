@@ -22,9 +22,9 @@ USER INTERFACE WITH PYTHON ALLOWING INDRECTLY SENDING MESSAGES ON A DISCORD WEBH
 
 ## How to Use
 
-- Use the arrow keys to move the player.
-- Collect gold to win.
-- Time speeds up and avoid to die (jumpscare)!
+- Run the program.
+- Enter the link to the webhook in the python console.
+- 
   
 ## DESCRIPTION
 
