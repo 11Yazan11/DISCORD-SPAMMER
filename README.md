@@ -29,7 +29,7 @@ USER INTERFACE WITH PYTHON ALLOWING INDRECTLY SENDING MESSAGES ON A DISCORD WEBH
   
 ## DESCRIPTION
 
-Be careful with using the program, respect Discord's rules to not get banned. You should not spam with more than 5 messages to avoid breaking discord rules. It is your responsibility. Check the Word file for more info.
+Be careful with using the program, respect Discord's rules to not get banned. You should not spam with more than 5 messages to avoid breaking discord rules. It is your responsibility. Check the .docs file for more info (download it).
 
 ## License
 
