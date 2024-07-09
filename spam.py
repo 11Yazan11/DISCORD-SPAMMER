@@ -10,7 +10,7 @@ from io import StringIO
 
 
 class Setup:
-    def __init__(self, webhook_url='https://discord.com/api/webhooks/1259832964989325352/Krej5cxAF4AKxrP1GAHX4Lir46ITGZm7uVwRUD-rZR1kptKZbN6fre5Kix4yiUsQvYXz') -> None:
+    def __init__(self, webhook_url) -> None:
         self.chars = 'abcdefghijklmnopqrstuvwxyz134567890%ù²(-à)*'
         self.webhook_url = webhook_url
         self.usernames = []
@@ -300,12 +300,11 @@ class TextInput:
 
 
 async def main():
-    webhook_link = input("ENTER WEBHOOK LINK PLEASE... [None] for default. Only enter the link, nothing else. || ")
+    webhook_link = input("ENTER WEBHOOK LINK PLEASE...( Only enter the link, nothing else. ) || ")
     displayer = Displayer()
     keep_data = False
     number_of_messages = 3
-    if webhook_link != "None":
-        setup = Setup(webhook_link)
+    setup = Setup(webhook_link)
     tasks = []
 
     # Redirect stdout to capture print statements
